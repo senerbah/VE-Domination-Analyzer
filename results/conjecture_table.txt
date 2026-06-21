@@ -1,0 +1,61 @@
+Conjecture Table: ve-domination numbers on Cn  (C3..C50)
+========================================================
+
+Cycle    | gamma_ve | Gamma_ve |  gap | well
+--------------------------------------------
+C3       |        1 |        1 |    0 | yes 
+C4       |        1 |        1 |    0 | yes 
+C5       |        2 |        2 |    0 | yes 
+C6       |        2 |        2 |    0 | yes 
+C7       |        2 |        2 |    0 | yes 
+C8       |        2 |        3 |    1 | no  
+C9       |        3 |        3 |    0 | yes 
+C10      |        3 |        4 |    1 | no  
+C11      |        3 |        4 |    1 | no  
+C12      |        3 |        4 |    1 | no  
+C13      |        4 |        5 |    1 | no  
+C14      |        4 |        5 |    1 | no  
+C15      |        4 |        6 |    2 | no  
+C16      |        4 |        6 |    2 | no  
+C17      |        5 |        6 |    1 | no  
+C18      |        5 |        7 |    2 | no  
+C19      |        5 |        7 |    2 | no  
+C20      |        5 |        8 |    3 | no  
+C21      |        6 |        8 |    2 | no  
+C22      |        6 |        8 |    2 | no  
+C23      |        6 |        9 |    3 | no  
+C24      |        6 |        9 |    3 | no  
+C25      |        7 |       10 |    3 | no  
+C26      |        7 |       10 |    3 | no  
+C27      |        7 |       10 |    3 | no  
+C28      |        7 |       11 |    4 | no  
+C29      |        8 |       11 |    3 | no  
+C30      |        8 |       12 |    4 | no  
+C31      |        8 |       12 |    4 | no  
+C32      |        8 |       12 |    4 | no  
+C33      |        9 |       13 |    4 | no  
+C34      |        9 |       13 |    4 | no  
+C35      |        9 |       14 |    5 | no  
+C36      |        9 |       14 |    5 | no  
+C37      |       10 |       14 |    4 | no  
+C38      |       10 |       15 |    5 | no  
+C39      |       10 |       15 |    5 | no  
+C40      |       10 |       16 |    6 | no  
+C41      |       11 |       16 |    5 | no  
+C42      |       11 |       16 |    5 | no  
+C43      |       11 |       17 |    6 | no  
+C44      |       11 |       17 |    6 | no  
+C45      |       12 |       18 |    6 | no  
+C46      |       12 |       18 |    6 | no  
+C47      |       12 |       18 |    6 | no  
+C48      |       12 |       19 |    7 | no  
+C49      |       13 |       19 |    6 | no  
+C50      |       13 |       20 |    7 | no  
+--------------------------------------------
+
+Well ve-dominated cycles found:
+{C3, C4, C5, C6, C7, C9}
+
+Conjectured formulas (verified computationally):
+  gamma_ve(Cn) = ceil(n / 4)
+  Gamma_ve(Cn) = floor(2n / 5)
